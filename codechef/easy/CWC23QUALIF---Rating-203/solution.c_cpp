@@ -4,7 +4,7 @@ using namespace std;
 int main() {
 	int n;
 	cin>>n;
-	if(n>20){
+	if(n>12 || n==12){
 	    cout<<"YES";
 	}
 	else{
