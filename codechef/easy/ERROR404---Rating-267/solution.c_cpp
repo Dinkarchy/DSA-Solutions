@@ -2,13 +2,13 @@
 using namespace std;
 
 int main() {
-	// your code goes here
-    int T;
-    cin>>T;
-    while(T--){
-        int x,n;
-        cin>>x>>n;
-        
-        cout<<(x*n)/10<<endl;
-    }
+	int x;
+	cin>>x;
+	if(x==404){
+	    cout<<"NOT FOUND";
+	}
+	else{
+	    cout<<"Found";
+	}
+
 }
