@@ -1,0 +1,22 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+
+
+    int T; cin >> T;
+    while (T--) {
+        int N; cin >> N;
+        string A, B; cin >> A >> B;
+
+        int aA = count(A.begin(), A.end(), 'a');
+        int aB = count(B.begin(), B.end(), 'a');
+
+        if (aA == N - aB) cout << "YES\n";
+        else cout << "NO\n";
+    }
+   
+
+
+
+}
