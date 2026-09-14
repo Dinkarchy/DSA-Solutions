@@ -21,6 +21,7 @@ int main() {
             if(abs(k-arr[i])<sm ){
                 sm = abs(k-arr[i]);
             }
+            else if(abs(k-arr[i])<=sm)
             
         }
         
