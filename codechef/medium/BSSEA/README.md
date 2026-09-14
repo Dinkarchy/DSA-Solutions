@@ -66,15 +66,23 @@ Seats $3$ and $7$ are both $2$ units away from the center. Choose seat $3$ becau
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-14T14:02:49.080Z  
+**Submitted:** 2026-09-14T14:03:50.069Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-	// your code goes here
-
+    int n;
+    cin>>n;
+    
+    int arr[n];
+    
+    for(int i=0; i<n; i++){
+        cin>>arr[i];
+    }
+    
+    
 }
 
 ```
