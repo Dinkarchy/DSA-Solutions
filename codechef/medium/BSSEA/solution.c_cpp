@@ -11,5 +11,7 @@ int main() {
         cin>>arr[i];
     }
     
+    int k = (arr[0]+arr[n-1])/ 2;
+    
     
 }
