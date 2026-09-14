@@ -12,15 +12,16 @@ int main() {
     }
     
     int k = (arr[0]+arr[n-1])/ 2;
-    int sm = arr[0];
+    int sm = INT_MAX;
     for(int i=0; i<n; i++){
         if(arr[i] == k){
             cout<<arr[i];
         }
         else{
-            if(abs(k-arr[i])){
-                
+            if(abs(k-arr[i])<sm ){
+                sm = abs(k-arr[i]);
             }
+            
         }
         
     }
