@@ -66,7 +66,7 @@ Seats $3$ and $7$ are both $2$ units away from the center. Choose seat $3$ becau
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-14T14:03:50.069Z  
+**Submitted:** 2026-09-14T14:05:23.070Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
