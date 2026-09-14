@@ -66,7 +66,7 @@ Seats $3$ and $7$ are both $2$ units away from the center. Choose seat $3$ becau
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-14T14:09:13.061Z  
+**Submitted:** 2026-09-14T14:26:45.922Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -83,8 +83,18 @@ int main() {
     }
     
     int k = (arr[0]+arr[n-1])/ 2;
-    
-    
+    int sm = arr[0];
+    for(int i=0; i<n; i++){
+        if(arr[i] == k){
+            cout<<arr[i];
+        }
+        else{
+            if(abs(k-arr[i])){
+                
+            }
+        }
+        
+    }
 }
 
 ```
