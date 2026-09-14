@@ -59,25 +59,14 @@ Chef has only $2$ notebooks, so he can prepare at most $2$ gift packs.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-14T14:02:26.858Z  
+**Submitted:** 2026-09-14T13:59:39.065Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-	int a,b;
-	cin>>a>>b;
 	
-	if(a==b){
-	    cout<<b;
-	}
-	else if(a>b){
-	    cout<<b;
-	}
-	else{
-	    cout<<a;
-	}
 
 }
 
