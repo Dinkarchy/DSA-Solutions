@@ -1,0 +1,9 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	string name1 = "Naruto";
+	string name2 = "Sasuke";
+	cout<<(name1.length()+name2.length());
+
+}
