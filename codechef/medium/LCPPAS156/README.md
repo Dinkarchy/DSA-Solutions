@@ -27,7 +27,7 @@ Amit
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-15T14:08:07.503Z  
+**Submitted:** 2026-09-15T14:07:09.423Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -41,9 +41,6 @@ int main() {
 	
 	if(c>d){
 	    cout<<a;
-	}
-	else if(c == d){
-	    cout<<"equal";
 	}
 	else{
 	    cout<<b;
