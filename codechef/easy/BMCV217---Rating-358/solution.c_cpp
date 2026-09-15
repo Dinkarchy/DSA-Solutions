@@ -1,0 +1,20 @@
+// The code below is incorrect. Debug this code to solve the problem
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int t;
+    cin >> t;
+    while (t--)
+    {
+        int X, Y, Z;
+        cin >> X >> Y >> Z;
+        // Variable declared to hold the final population of the town
+        int total_population = X - Y;
+        total_population = total_population + Z;
+        cout << total_population << endl;
+    }
+    
+}
