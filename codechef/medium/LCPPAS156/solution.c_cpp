@@ -10,6 +10,9 @@ int main() {
 	if(c>d){
 	    cout<<a;
 	}
+	else if(c == d){
+	    cout<<"equal";
+	}
 	else{
 	    cout<<b;
 	}
