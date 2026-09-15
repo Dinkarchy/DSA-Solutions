@@ -4,23 +4,47 @@
 
 ## Problem
 
-_Description not available._
+Write a program to input two student's names and percentages and print the name of the student with the higher percentage. In case they score equal percentages, print ' **equal** '.
+
+### Input Format
+- The first line of input will contain two strings: the name of the first student and the name of the second student.
+- The second line of input will contain two percentages: the percentage of the first student and the percentage of the second student.
+### Sample 1:
+Input
+Output
+
+```
+Amit Swarup
+95 92
+```
+
+```
+Amit
+```
 
 ## Solution
 
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-15T14:03:26.473Z  
+**Submitted:** 2026-09-15T14:06:40.201Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-	string name1 = "Naruto";
-	string name2 = "Sasuke";
-	cout<<(name1.length()+name2.length());
+	string a,b;
+	cin>>a>>b;
+	int c,d;
+	cin>>c>>d;
+	
+	if(c>d){
+	    cout<<a;
+	}
+	else{
+	    cout<<b;
+	}
 
 }
 
