@@ -33,7 +33,7 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-15T14:24:18.243Z  
+**Submitted:** 2026-09-15T14:24:47.937Z  
 
 ```c_cpp
 #include <iostream>
@@ -44,7 +44,7 @@ int main() {
     cin>>n;
     
     int k=0;
-    for(int i=0; i<n; i++){
+    for(int i=0; i<=n; i++){
         if(i% 2 != 0 && i%3 !=0 && i%5 != 0 ){
             k++;
         }
