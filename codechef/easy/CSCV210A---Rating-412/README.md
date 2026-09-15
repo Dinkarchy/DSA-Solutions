@@ -50,7 +50,7 @@ NO
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-15T08:28:56.405Z  
+**Submitted:** 2026-09-15T08:28:58.332Z  
 
 ```c_cpp
 // The code below is incorrect. Debug the code to solve this problem
