@@ -4,79 +4,64 @@
 
 ## Problem
 
-Chef and Chefina are playing with dice. In one turn, both of them roll their dice at once.
-
-They consider a turn to be  *good*  if the  **sum**  of the numbers on their dice is greater than $6$.
-Given that in a particular turn Chef and Chefina got $X$ and $Y$ on their respective dice, find whether the turn was good.
+Write a program to calculate the sum of the digits present in an alphanumeric string.
 
 ### Input Format
-- The first line of input will contain a single integer $T$, denoting the number of test cases.
-- Each test case contains two space-separated integers $X$ and $Y$ — the numbers Chef and Chefina got on their respective dice.
+- The first line contains an integer, T, denoting the number of test cases.
+- Each of the next T lines contains a string consisting of lowercase/uppercase English letters, along with digits 0 to 9. (There shall be no space in the string)
 ### Output Format
-
-For each test case, output on a new line, `YES`, if the turn was good and `NO` otherwise.
-
-Each character of the output may be printed in either uppercase or lowercase. That is, the strings `NO`, `no`, `nO`, and `No` will be treated as equivalent.
-
+- For each test case, print the sum of digits in each string.
 ### Constraints
-- $1 \leq T \leq 100$
-- $1 \leq X, Y \leq 6$
+- 1 ≤ T ≤ 20
+- 1 ≤ Length of each string ≤ 1000
 ### Sample 1:
 Input
 Output
 
 ```
-4
-1 4
-3 4
-4 2
-2 6
-
+1
+Hel#284!lo23Chef
 ```
 
 ```
-NO
-YES
-NO
-YES
-
+19
 ```
 
 ### Explanation:
 
- **Test case $1$:**  The sum of numbers on the dice is $1+4 = 5$ which is smaller than $6$. Thus, the turn is not good.
-
- **Test case $2$:**  The sum of numbers on the dice is $3+4 = 7$ which is greater than $6$. Thus, the turn is good.
-
- **Test case $3$:**  The sum of numbers on the dice is $4+2 = 6$ which is equal to $6$. Thus, the turn is not good.
-
- **Test case $4$:**  The sum of numbers on the dice is $2+6 = 8$ which is greater than $6$. Thus, the turn is good.
+2 + 8 + 4 + 2 + 3 = 19
 
 ## Solution
 
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-15T14:54:23.071Z  
+**Submitted:** 2026-09-15T15:05:08.524Z  
 
 ```c_cpp
-#include <iostream>
+#include <bits/stdc++.h>
+#include <string>
 using namespace std;
 
 int main() {
     int t;
     cin>>t;
     while(t--){
-        int x,y;
-        cin>>x>>y;
-        if(x+y > 6){
-            cout<<"YES"<<endl;
+        string s;
+        cin>>s;
+        
+        int sum =0;
+        for( auto ch : s){
+            if(isdigit(ch)){
+                sum += ch - '0';
+            }
         }
-        else{
-            cout<<"NO"<<endl;
-        }
+        
+        
+        cout<<sum<<endl;
     }
-	return 0;
+    
+    return 0;
 }
 
 ```
