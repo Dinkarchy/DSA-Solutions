@@ -1,0 +1,23 @@
+// Update the program below to solve the problem
+#include <bits/stdc++.h>
+
+using namespace std;
+int main()
+{
+    int t;
+    cin >> t;
+    while (t--)
+    {
+        int X, Y, A;
+        //Accept 3 integers inputs.
+        cin >> X >> Y >> A;
+        
+        if(A< Y && A>= X){
+            cout<<"YES"<<endl;
+        }
+        else{
+            cout<<"No"<<endl;
+        }
+    }
+    
+}
