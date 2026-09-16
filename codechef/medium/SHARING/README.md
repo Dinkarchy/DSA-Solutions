@@ -59,15 +59,23 @@ The total number of cookies is $7$, which is not dividable fairly between Alice 
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-16T16:02:30.404Z  
+**Submitted:** 2026-09-16T16:03:18.720Z  
 
 ```c_cpp
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 int main() {
-	// your code goes here
-
+    int A, B;
+    cin >> A >> B;
+    int total = A + B;
+    if (total % 2 != 0) {
+        cout << -1;
+    } else {
+        int target = total / 2;
+        cout << A - target;
+    }
+    return 0;
 }
 
 ```
