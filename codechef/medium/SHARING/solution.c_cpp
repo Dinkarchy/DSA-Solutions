@@ -1,7 +1,15 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 int main() {
-	// your code goes here
-
+    int A, B;
+    cin >> A >> B;
+    int total = A + B;
+    if (total % 2 != 0) {
+        cout << -1;
+    } else {
+        int target = total / 2;
+        cout << A - target;
+    }
+    return 0;
 }
