@@ -1,0 +1,12 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int T; cin >> T;
+    while (T--) {
+        int N, X; cin >> N >> X;
+        int need = max(0, N - X);
+        cout << (need + 3) / 4 << "\n";
+    }
+    return 0;
+}
