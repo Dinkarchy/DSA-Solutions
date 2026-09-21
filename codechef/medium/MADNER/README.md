@@ -73,13 +73,15 @@ xyyyx
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-21T15:36:57.209Z  
+**Submitted:** 2026-09-21T15:32:44.997Z  
 
 ```c_cpp
 class Solution {
 public:
     int findMaximumPairs(const string &students) {
-        
+        int t;
+        cin>>t;
+        while(t--){
             
             int count =0;
             for(int i=0; i+1<(int)students.length(); ){
@@ -95,7 +97,7 @@ public:
             }
             
             return count;
-        
+        }
         
     }
 };
