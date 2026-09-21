@@ -73,7 +73,7 @@ xyyyx
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-21T14:48:04.858Z  
+**Submitted:** 2026-09-21T14:48:47.843Z  
 
 ```c_cpp
 class Solution {
