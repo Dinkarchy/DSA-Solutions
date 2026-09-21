@@ -71,14 +71,14 @@ Therefore, $100-40=60$ chips remain.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-21T14:43:16.017Z  
+**Submitted:** 2026-09-21T14:43:22.999Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-	// your code goes here
+	
 
 }
 
