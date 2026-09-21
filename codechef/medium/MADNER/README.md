@@ -73,7 +73,7 @@ xyyyx
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-21T15:00:08.917Z  
+**Submitted:** 2026-09-21T15:03:46.944Z  
 
 ```c_cpp
 class Solution {
@@ -82,17 +82,15 @@ public:
         int t;
         cin>>t;
         while(t--){
-            string s;
-            cin>>s;
             
             int count =0;
-            for(int i=0; i<s.size(); i++){
-                if(s[i] == 'x' && s[i+1] == 'y'){
+            for(int i=0; i<students.size()-1; i++){
+                if(students[i] == 'x' && students == 'y'){
                     count++;
                 }
             }
             
-            cout<<count<<endl;
+            return count;
         }
         
     }
