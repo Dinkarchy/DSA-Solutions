@@ -73,7 +73,7 @@ xyyyx
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-21T14:54:51.918Z  
+**Submitted:** 2026-09-21T15:00:08.917Z  
 
 ```c_cpp
 class Solution {
@@ -86,8 +86,8 @@ public:
             cin>>s;
             
             int count =0;
-            for(int i=0; i<s.length(); i++){
-                if(s[i] == "x" && s[i+1] == "y"){
+            for(int i=0; i<s.size(); i++){
+                if(s[i] == 'x' && s[i+1] == 'y'){
                     count++;
                 }
             }
