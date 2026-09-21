@@ -73,7 +73,7 @@ xyyyx
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-21T15:21:55.563Z  
+**Submitted:** 2026-09-21T15:22:35.588Z  
 
 ```c_cpp
 class Solution {
@@ -85,7 +85,7 @@ public:
             
             int count =0;
             for(int i=0; i<(int)students.length(); i++){
-                if((students[i] == 'x' || students[i+1] == 'x') && (students[i] == 'y' && students[i+1] == 'y')){
+                if((students[i] == 'x' || students[i+1] == 'x') && (students[i] == 'y' || students[i+1] == 'y')){
                     count++;
                     i++;
                 }
