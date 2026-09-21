@@ -73,7 +73,7 @@ xyyyx
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-21T15:29:31.756Z  
+**Submitted:** 2026-09-21T15:28:38.655Z  
 
 ```c_cpp
 class Solution {
@@ -88,7 +88,7 @@ public:
                 if((students[i] == 'x' && students[i+1] == 'y') || (students[i] == 'y' && students[i+1] == 'x')){
                     count++;
                     
-                    i=i+2;
+                    i++;
                     
                 }
             }
