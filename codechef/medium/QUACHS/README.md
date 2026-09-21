@@ -71,7 +71,7 @@ Therefore, $100-40=60$ chips remain.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-21T14:43:22.999Z  
+**Submitted:** 2026-09-21T14:45:07.997Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
