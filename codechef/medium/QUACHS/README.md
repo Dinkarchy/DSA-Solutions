@@ -71,14 +71,17 @@ Therefore, $100-40=60$ chips remain.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-21T14:45:57.999Z  
+**Submitted:** 2026-09-21T14:47:38.217Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
+	int x,y,z;
+	cin>>x>>y>>z;
 	
+	cout<<(x+y-2*z);
 
 }
 
