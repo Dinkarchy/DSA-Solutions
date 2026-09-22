@@ -73,7 +73,7 @@ Each number has at most $4$ significant bits, so removing $4$ least significant 
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-22T10:44:15.442Z  
+**Submitted:** 2026-09-22T10:44:32.835Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
