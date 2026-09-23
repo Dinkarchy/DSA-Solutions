@@ -66,7 +66,7 @@ Chef can work on minutes $1, 2, 4, 5, 7$ to put up the net; so the answer is $7$
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-23T15:51:33.209Z  
+**Submitted:** 2026-09-23T15:59:43.668Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -79,8 +79,17 @@ int main() {
 	    int n,k;
 	    cin>>n>>k;
 	    
+	    int count=0;
 	    if(k>n){
-	        cout<<n;
+	        cout<<n<<endl;;
+	    }
+	    else{
+	        for(int i=0; i<n; i++){
+	            if(i%k == 0){
+	                count++;
+	            }
+	        }
+	            cout<<n+count<<endl;
 	    }
 	    
 	}
