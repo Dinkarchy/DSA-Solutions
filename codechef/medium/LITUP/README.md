@@ -76,14 +76,18 @@ $5$ is the minimum cost needed to achieve this.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-23T16:16:58.489Z  
+**Submitted:** 2026-09-23T16:17:27.444Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-	
+	int t;
+	cin>>t;
+	while(t--){
+	    
+	}
 
 }
 
