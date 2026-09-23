@@ -9,7 +9,7 @@ int main() {
 	    cin>>n>>k;
 	    
 	    int count=0;
-	   if(n>=1 && k>=2){
+	   if(n>1 && k>2){
 	    if(k>n){
 	        cout<<n<<endl;;
 	    }
