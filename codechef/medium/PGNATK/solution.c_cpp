@@ -8,20 +8,18 @@ int main() {
 	    int n,k;
 	    cin>>n>>k;
 	    
-	    int count=0;
-	   if(n>=1 && k>=2){
-	    if(k>n){
-	        cout<<n<<endl;;
-	    }
-	    else{
-	        for(int i=0; i<=n; i++){
-	            if(i%k == 0){
-	                count++;
-	            }
+	    int total=0;
+	    int work =0;
+	    
+	    while(work < n){
+	        total++;
+	        if(total % k !=0){
+	            work++;
 	        }
-	            cout<<n+count<<endl;
 	    }
-	   }
+	    
+	    cout<<total<<endl;
+	    
 	}
 
 }
