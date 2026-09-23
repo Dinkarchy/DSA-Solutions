@@ -8,6 +8,9 @@ int main() {
 	    int n,k;
 	    cin>>n>>k;
 	    
+	    if(k>n){
+	        cout<<n;
+	    }
 	    
 	}
 
