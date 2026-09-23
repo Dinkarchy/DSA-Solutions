@@ -76,7 +76,7 @@ $5$ is the minimum cost needed to achieve this.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-23T16:17:27.444Z  
+**Submitted:** 2026-09-23T16:20:48.435Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -86,6 +86,8 @@ int main() {
 	int t;
 	cin>>t;
 	while(t--){
+	    int n,k;
+	    cin>>n>>k;
 	    
 	}
 
