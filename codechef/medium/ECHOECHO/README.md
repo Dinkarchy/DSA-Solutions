@@ -63,13 +63,15 @@ The second character of `ever` is `v`, while its fourth character is `r`. These 
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-23T15:27:08.436Z  
+**Submitted:** 2026-09-23T15:27:27.420Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
+	string s;
+	cin>>s;
 	
 	
 
