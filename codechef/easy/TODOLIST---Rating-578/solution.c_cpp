@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main(){
+    int T; cin>>T;
+    while(T--){
+        int P,Q,R,S; cin>>P>>Q>>R>>S;
+        int arr[4]={P,Q,R,S};
+        int sum=P+Q+R+S;
+        bool ok=false;
+        for(int i=0;i<4;i++){
+            if(arr[i]>sum-arr[i]){ok=true;break;}
+        }
+        cout<<(ok?"YES":"NO")<<"\n";
+    }
+}
